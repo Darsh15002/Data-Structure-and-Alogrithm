@@ -1,0 +1,30 @@
+Refinery Problem                      Problem Code: REFINERY
+
+A local oil refinery gets E units of electricity everyday. It has to construct several machines in order to begin production. 
+It can construct any number of machines between 1 and M. All the machines will equally distribute the total amount of electricity available among themselves. 
+Each machine will get the same units of electricity and this amount is maximum possible. The remaining amount of electricity gets saved and is used for other purposes. 
+Determine the maximum amount of electricity that the refinery can save.
+
+Input Format
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains 2 space-separated integers: E,M.
+Output Format
+For each test case, output a single integer - the maximum amount of electricity that the refinery can save.
+
+Constraints
+1≤T≤50
+1≤E,M≤10^5
+M≤E
+Sample Input 1 
+3
+13 5
+7 2
+9 5
+Sample Output 1 
+3
+1
+4
+Explanation
+Test case 1: The refinery can construct 5 machines and will utilize 2 units of electricity each. Thus, 3 units of electricity is saved.
+
+Test case 2: The refinery can construct 2 machines and will utilize 3 units of electricity each. Thus, a single unit of electricity is saved.
