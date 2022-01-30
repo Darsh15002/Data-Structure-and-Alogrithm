@@ -1,0 +1,36 @@
+Divine Words Problem 	Code: DIVINE
+
+Chef has a certain liking towards certain English characters. He considers these characters beautiful. You are given a string S consisting of all the characters Chef finds beautiful.
+
+Chef considers a word divine if each and every character present in the word is beautiful. Given a list of N words, determine which of them are divine.
+
+Input Format
+The first line of the input contains a string S, consisting of beautiful characters. Each character in S will appear only once.
+The second line of the input contains an integer N.
+Each of the following N lines contains a single string Pi, denoting the ith word in the list.
+Output Format
+For each of the N words, output "Yes" (without quotes) if the word is divine and "No" (without quotes) otherwise.
+
+Constraints
+1≤|S|≤26
+1≤N≤1000
+1≤|Pi|≤12
+Each character in S will appear only once.
+S, Pi consist only of lowercase English alphabets.
+Subtasks
+Subtask 1 (30 points): |S| = 1
+Subtask 2 (70 points) : Original constraints
+Sample Input 1 
+rested
+3
+terp
+dest
+nop
+Sample Output 1 
+No
+Yes
+No
+Explanation
+Test Case 1: Character p isn't beautiful. Therefore this word is not divine.
+
+Test Case 2: Every character in the word d,e,s,t is beautiful. Therefore, this word is divine.
