@@ -1,0 +1,37 @@
+Precious Substrings 		Problem Code: PSUBS
+
+In Chefland, a string is considered precious if it both begins and ends with '1'. Such substrings are provided maximum level security for protection against robbers.
+
+Given a binary string (consisting of only 0's and 1's) S of length N. Determine the number of precious substrings in the string so that they can be provided protection.
+
+A substring is defined as a sequence of continuous characters Si,Si+1,...,Sj where 1≤i≤j≤N.
+
+Input Format
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line of each test case contains a single string S.
+Output Format
+For each testcase, output in a single line the number of precious substrings.
+
+Constraints
+1≤T≤105
+1≤N≤105
+Sum of N over all testcases ≤105
+Sample Input 1 
+3
+4
+1010
+5
+11111
+3
+110
+Sample Output 1 
+3
+15
+3
+Explanation
+Test Case 1: Substrings S[1,1], S[3,3] and S[1,3] are precious.
+
+Test Case 2: All substrings are precious.
+
+S[i,j] denotes substring from index i to j.
